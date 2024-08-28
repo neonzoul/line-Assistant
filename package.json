@@ -1,0 +1,21 @@
+{
+  "name": "tidit-assistant",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "20.x",
+    "npm": "10.x"
+  },
+  "dependencies": {
+    "@line/bot-sdk": "^9.3.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "openai": "^4.56.1"
+  },
+  "description": "LINE chatbot with OpenAI integration",
+  "author": "",
+  "license": "ISC"
+}
